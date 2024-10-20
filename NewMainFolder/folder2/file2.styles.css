@@ -1,0 +1,40 @@
+Body{
+    margin:0;
+}
+section{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin:100px;
+}
+
+table{
+    display:grid;
+    grid-template-columns: repeat(8,475px);
+    grid-template-rows: repeat(8,1fr);
+    border: 1px solid black;
+    width:477px;
+    height:301px;
+    position:relative;
+}
+
+.red{
+    background-color:red;
+    display:grid;
+    height:23px;
+}
+
+.white{
+    background-color:white;
+    display:grid;
+    height:23px;
+}
+
+img{
+    position:absolute;
+    width:200px;
+    height:162px;
+    z-index: 1;
+} 
